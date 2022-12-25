@@ -20,6 +20,9 @@ To install requirements:
 > https://github.com/pclucas14/pixel-cnn-pp
 > https://jyopari.github.io/VAE.html
 ---
+#### Data
+* CIFAR10: the dataset is loaded from the Pytorch 
+
 tools & frameworks:
 * Pytorch, Tensorflow, wandb
 * I have used Google colab for hardware acceleration; dynamic GPU allocation—P100, V100 with 52GB VM system memory mainly for computations.
