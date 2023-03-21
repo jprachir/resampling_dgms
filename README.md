@@ -21,6 +21,7 @@ To install requirements:
 
 ### Other References:
 > https://github.com/pclucas14/pixel-cnn-pp
+
 > https://jyopari.github.io/VAE.html
 ---
 tools & frameworks:
