@@ -16,24 +16,15 @@ SOTA DGMs can exhibit imperfections e.g. image models can have noticeable artifa
 To install requirements:
 > pip install -r requirements.txt
 
+#### Data
+* CIFAR10: the dataset is loaded from the Pytorch 
+
 ### Other References:
 > https://github.com/pclucas14/pixel-cnn-pp
 > https://jyopari.github.io/VAE.html
 ---
-#### Data
-* CIFAR10: the dataset is loaded from the Pytorch 
-
 tools & frameworks:
 * Pytorch, Tensorflow, wandb
 * I have used Google colab for hardware acceleration; dynamic GPU allocation—P100, V100 with 52GB VM system memory mainly for computations.
 
 > assumption: This work is applicable to any SOTA DGM.
-
-> Remaining tasks:
-- Implement SIR algorithm
-
-> Possible improvements:
-- Improve the sampler
-- Integrate domain knowledge
-- Analyse different SOTA DGMs
-- Integrate XAI
